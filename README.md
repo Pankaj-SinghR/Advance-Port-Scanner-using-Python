@@ -1,4 +1,4 @@
-# Advance-Port-Scanner-using-Python
+# Advance-Port-Scanner-CLI
 ## how port scanner work?
 - This port scanner does a port/ports scan for a remote host.
 - The list of ports and a remote host are entered as command line args.
