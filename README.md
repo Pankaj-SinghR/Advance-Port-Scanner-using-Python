@@ -13,21 +13,16 @@ git clone https://github.com/Pankaj-SinghR/advance-port-scanner-using-python.git
 ```
 cd advance-port-scanner-using-python
 ```
-### Create a virtual environment
-```
-python3 -m virtualenv env
-```
-### Start the virtual environment
-```
-source env/bin/activate
-```
 
-### Install requirements.txt file
-```
-pip install -r requirements.txt 
-```
 ### let's scan 
+### Help menu
 ```
+python scanner.py -h
+```
+![](./help_menu.png)
 
+### Scanning www.google.com
 ```
----
+python scanner.py www.google.com 80 440 443 22
+```
+![](./output.png)
